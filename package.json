@@ -2,6 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Project#1",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Werstad/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/Werstad/frontend-project-44#readme"
+  "homepage": "https://github.com/Werstad/frontend-project-44#readme",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
